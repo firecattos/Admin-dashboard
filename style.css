@@ -1,5 +1,6 @@
 body{
     margin: 0;
+    font-family: sans-serif;
 }
 
 .container{
@@ -25,10 +26,63 @@ body{
 
 .dashboard > h2{
     margin-top: 0;
+    padding-left: 40px;
+}
+
+.dashboard a{
+    text-decoration: none;
+    color: white;
 }
 
 .dashboard > *{
     margin-bottom: 50px;
+}
+
+
+.dashboard p{
+    padding-left: 30px;
+    background-repeat: no-repeat;
+}
+
+#dash{
+    background-image: url(svg/dashboard.svg);
+    background-repeat: no-repeat;
+}
+
+#home{
+    background-image: url(svg/home.svg);
+}
+
+#profile{
+    background-image: url(svg/profile.svg);
+}
+
+#messages{
+    background-image: url(svg/message.svg);
+}
+
+#history{
+    background-image: url(svg/history.svg);
+}
+
+#tasks{
+    background-image: url(svg/tasks.svg);
+}
+
+#community{
+    background-image: url(svg/communities.svg);
+}
+
+#settings{
+    background-image: url(svg/settings.svg);
+}
+
+#support{
+    background-image: url(svg/support.svg);
+}
+
+#privacy{
+    background-image: url(svg/privacy.svg);
 }
 
 .main{
