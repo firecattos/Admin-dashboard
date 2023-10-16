@@ -4,12 +4,30 @@
 <head>
     <meta charset="UTF-8">
     <title>Admin Dashboard</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" />
 </head>
 
 <body>
     <div class="container">
-        <div class="header">Header</div>
+        <div class="header">
+            <div class="upperRow">
+                <div class="searchContainer">
+                    <label for="search">
+                        <span class="material-symbols-outlined searchIcon">search</span>
+                    </label>
+                    <input type="search" name="search" id="search">
+                </div>
+                <div class="userInfo">
+                    <span class="material-symbols-outlined">notifications_active</span>
+                    <div class="profileIcon">
+                        <img src="img/profileCatSmall.jpg">
+                    </div>
+                    Firecattos
+                </div>
+            </div>
+            <div class="lowerRow"></div>
+        </div>
         <div class="dashboard">
             <h2 id="dash">Dashboard</h2>
             <div class="personal">

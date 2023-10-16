@@ -13,6 +13,46 @@ body{
     border: 1px solid;
 
     grid-column-start: 2;
+    display: grid;
+    grid-template-rows: 1fr 2fr;
+}
+
+.upperRow, .userInfo/*, .searchContainer*/{
+    display: grid;
+    grid-auto-flow: column;
+}
+
+.upperRow{
+    grid-template-columns: 2fr 1fr;
+    padding: 20px 20px 0 20px;
+    align-items: center;
+}
+
+.userInfo{
+    align-items: center;
+    justify-items: center;
+}
+
+.searchContainer{
+    display: flex;
+}
+
+.searchContainer > label{
+    margin-right: 1em;
+}
+
+.searchContainer > #search{
+    flex: 0.9;
+    background-color: #e2e8f0;
+    border: none;
+    border-radius: 15px;
+    padding: 0 10px 0 10px;
+}
+
+.profileIcon > img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
 }
 
 .dashboard{
