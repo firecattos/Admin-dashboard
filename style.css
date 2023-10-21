@@ -87,7 +87,7 @@ body{
 .postAction{
     display: flex;
     align-items: center;
-    gap: 5em;
+    gap: 2em;
 }
 
 .postAction button{
