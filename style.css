@@ -181,14 +181,15 @@ body{
     background-color: #e2e8f0;
 
     display: grid;
+    grid-template-columns: 3fr 1fr;
     padding: 20px;
     gap: 1.5em;
 }
-
+/*
 .main .mainContainer{
     grid-area: 1/1/2/1;
 }
-
+*/
 .main .projectsContainer{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -226,11 +227,11 @@ body{
 .projectCard p, .notice p{
     color: #595959;
 }
-
+/*
 .main .annContainer{
     grid-area: 1/2/1/2;
 }
-
+*/
 .annList{
     list-style: none;
     background-color: white;
@@ -256,7 +257,8 @@ body{
 .notice p{
     font-size: 0.8rem;
 }
-
+/*
 .main .trending{
     grid-area: 2/2/2/2;
 }
+*/
