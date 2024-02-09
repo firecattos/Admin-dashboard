@@ -19,6 +19,8 @@ body{
     grid-column-start: 2;
     display: grid;
     grid-template-rows: 1fr 2fr;
+
+    z-index: 0;
 }
 
 .upperRow, .userInfo/*, .searchContainer*/{
@@ -93,10 +95,11 @@ body{
     display: flex;
     align-items: center;
     gap: 2em;
+    flex-wrap: wrap;
 }
 
 .postAction button{
-    flex: 1;
+    /*flex: 1;*/
     background-color: #1992d4;
     color: white;
     font-weight: bold;
@@ -290,4 +293,8 @@ body{
 
 .trendingCard p{
     margin: 0;
+}
+
+.header, .projectCard, .annList, .trendList{
+    box-shadow: 0px 10px 15px 0px #b3b3b3;
 }
